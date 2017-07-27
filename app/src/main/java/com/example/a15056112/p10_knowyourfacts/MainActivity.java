@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         al.add(new Frag1());
         al.add(new Frag2());
         al.add(new Frag3());
+        al.add(new Frag4());
         adapter = new MyFragmentPageraAdapter(fm, al);
         viewPager.setAdapter(adapter);
 
